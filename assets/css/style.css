@@ -5071,6 +5071,9 @@ button {
 .home-v3-wrapper h6 {
   font-weight: 500;
 }
+.testimonial-content > h3 {
+  font-size: 34px !important;
+}
 
 /*---==========================
    End Dark Page Css
