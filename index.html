@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!--====== Required meta tags sfaihfalf======-->
+    <!--====== Required meta tags ======-->
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="description" content="" />
@@ -10,9 +10,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <!--====== Title ======-->
-
     <title>Fugen</title>
-
     <!--====== Favicon Icon ======-->
     <link
       rel="shortcut icon"
@@ -26,7 +24,7 @@
     <!--====== Responsive css ======-->
     <link rel="stylesheet" href="assets/css/responsive.css" />
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".main-menu">
     <!--====== Start Preloader ======-->
     <div class="preloader">
       <div class="loader">
@@ -56,21 +54,15 @@
         <div class="contact-us">
           <h5 class="panel-widget-title">Contact Us</h5>
           <ul>
-            <!-- <li>
-              <i class="fal fa-map-marker-alt"></i>
-              121 King St, Melbourne VIC 3000, Australia.
-            </li> -->
             <li>
               <i class="fal fa-envelope-open"></i>
+              <!-- <a href="mailto:hello@barky.com"> hello@barky.com</a> -->
               <a href="mailto:fugen.tech@proton.me">fugen.tech@proton.me</a>
             </li>
             <li>
               <i class="fal fa-phone"></i>
-
               <a href="tel:+389 70 571 964">+389 70 571 964</a>
-              <!-- idriz number  -->
               <a href="tel:+389 70 799 801">+389 70 799 801</a>
-              <!-- muadh skopje number  -->
             </li>
           </ul>
         </div>
@@ -113,68 +105,39 @@
               <!-- Main Menu -->
               <nav class="main-menu">
                 <ul>
-                  <li class="menu-item has-children">
-                    <a href="#" class="active nav-link">Home</a>
-                    <ul class="sub-menu">
-                      <li class="has-children">
-                        <!-- <a href="#">Multipage</a> -->
-                        <ul class="sub-menu">
-                          <!-- <li><a href="index.html">Creative Agency</a></li>
-                          <li><a href="index-2.html">Digital Agency</a></li>
-                          <li><a href="index-3.html">Design Studio</a></li> -->
-                        </ul>
-                      </li>
-                      <li class="has-children">
-                        <!-- <a href="#">Onepage</a> -->
-                        <ul class="sub-menu">
-                          <li>
-                            <a href="onepage-index-1.html">Creative Agency</a>
-                          </li>
-                          <li>
-                            <a href="onepage-index-2.html">Digital Agency</a>
-                          </li>
-                          <li>
-                            <a href="onepage-index-3.html">Design Studio</a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="menu-item has-children">
-                    <a href="#" class="nav-link">Services</a>
-                    <ul class="sub-menu">
-                      <!-- <li><a href="services.html">Our Service</a></li> -->
-                      <li>
-                        <!-- <a href="service-details.html">Service Details</a> -->
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="menu-item has-children">
-                    <a href="#" class="nav-link">Portfolio</a>
-                    <!-- <ul class="sub-menu"> -->
-                    <!-- <li><a href="projects.html">Our Portfolio</a></li> -->
-                    <!-- <li> -->
-                    <!-- <a href="project-details.html">Portfolio Details</a> -->
-                    <!-- </li> -->
-                    <!-- </ul> -->
-                  </li>
-                  <!-- <li class="menu-item has-children">
-                    <a href="#" class="nav-link">Pages</a>
-                    <ul class="sub-menu">
-                      <li><a href="about.html">About Us</a></li>
-                      <li><a href="team.html">Our Team</a></li>
-                      <li><a href="team-details.html">Team Details</a></li>
-                    </ul>
-                  </li> -->
-                  <li class="menu-item has-children">
-                    <a href="#" class="nav-link">Blog</a>
-                    <!-- <ul class="sub-menu">
-                      <li><a href="blogs.html">Our Blog</a></li>
-                      <li><a href="blog-details.html">Blog Details</a></li>
-                    </ul> -->
+                  <li class="menu-item">
+                    <a href="#home-fugen" class="page-scroll active nav-link"
+                      >Home</a
+                    >
                   </li>
                   <li class="menu-item">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="#about-us" class="page-scroll nav-link">About</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#services-fugen" class="page-scroll nav-link"
+                      >Services</a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a href="#portfolio-fugen" class="page-scroll nav-link"
+                      >Portfolio</a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a href="#testimonial-fugen" class="page-scroll nav-link"
+                      >Testimonial</a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a href="#team-fugen" class="page-scroll nav-link">Team</a>
+                  </li>
+                  <!-- <li class="menu-item">
+                    <a href="#blog-fugen" class="page-scroll nav-link">Blog</a>
+                  </li> -->
+                  <li class="menu-item">
+                    <a href="#contact-fugen" class="page-scroll nav-link"
+                      >Contact</a
+                    >
                   </li>
                 </ul>
               </nav>
@@ -242,7 +205,7 @@
         /></span>
       </div>
       <!-- main  -->
-      <div class="container">
+      <div class="container" id="home-fugen">
         <div class="row">
           <div class="col-xl-8 col-lg-12">
             <div class="hero-content">
@@ -286,7 +249,7 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="text-wrapper mb-50 wow fadeInRight">
+            <div class="text-wrapper mb-50 wow fadeInRight" id="about-us">
               <div class="section-title mb-15">
                 <span class="sub-title st-one">About Us</span>
                 <h2>We’re Creative Agency</h2>
@@ -316,13 +279,13 @@
     <!--====== End About Section ======-->
     <!--====== Start Service Section ======-->
     <section class="service-area pt-90 pb-80">
-      <div class="container">
+      <div class="container" id="services-fugen">
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="section-title text-center mb-55 wow fadeInUp">
               <span class="sub-title st-one">Services</span>
               <h2>Creative Design Solutions</h2>
-              <p>Professional Design Agency to provide solutions</p>
+              <!-- <p>Professional Design Agency to provide solutions</p> -->
             </div>
           </div>
         </div>
@@ -337,7 +300,7 @@
               </div>
               <div class="text">
                 <h3 class="title">
-                  <a href="service-details.html">Strategy</a>
+                  <a href="#">Strategy</a>
                 </h3>
                 <ul class="list-style-two">
                   <li>Digital Strategy</li>
@@ -398,13 +361,13 @@
     <section
       class="portfolio-area portfolio-area-v1 light-gray-bg pt-130 pb-70"
     >
-      <div class="container">
+      <div class="container" id="portfolio-fugen">
         <div class="row">
           <div class="col-lg-8">
             <div class="section-title mb-45 wow fadeInUp">
               <span class="sub-title st-one">Latest Work</span>
               <h2>Professional Experience</h2>
-              <p>Professional Design Agency to provide solutions</p>
+              <!-- <p>Professional Design Agency to provide solutions</p> -->
             </div>
           </div>
         </div>
@@ -413,9 +376,9 @@
             <div class="portfolio-filter-button mb-50 wow fadeInLeft">
               <ul class="filter-btn mb-20">
                 <li data-filter="*" class="active">Show All</li>
-                <li data-filter=".cat-1">Design</li>
+                <!-- <li data-filter=".cat-1">Design</li>
                 <li data-filter=".cat-2">Branding</li>
-                <li data-filter=".cat-3">Development</li>
+                <li data-filter=".cat-3">Development</li> -->
                 <!-- <li data-filter=".cat-4">SEO</li> -->
                 <!-- <li data-filter=".cat-5">UX/UI Design</li> -->
               </ul>
@@ -608,7 +571,7 @@
             <div class="section-title text-center mb-55 wow fadeInUp">
               <span class="sub-title st-one">Agency Statistics</span>
               <h2>Why People’s Like Us</h2>
-              <p>Professional Design Agency to provide solutions</p>
+              <!-- <p>Professional Design Agency to provide solutions</p> -->
             </div>
           </div>
         </div>
@@ -665,7 +628,10 @@
     <section
       class="testimonial-area testimonial-area-v1 dark-blue-bg pattern-bg pt-130 pb-80"
     >
-      <div class="shape-img wow fadeInRight animate-float-y">
+      <div
+        class="shape-img wow fadeInRight animate-float-y"
+        id="testimonial-fugen"
+      >
         <span><img src="assets/images/testimonial/img-3.jpg" alt="" /></span>
       </div>
       <div class="container">
@@ -753,7 +719,7 @@
     <!--====== End Testimonial Section ======-->
     <!--====== Start Team Section ======-->
     <section class="team-area team-area-v1 pt-130">
-      <div class="container">
+      <div class="container" id="team-fugen">
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="section-title text-center mb-55 wow fadeInUp">
@@ -926,7 +892,7 @@
     <!--====== End Team Section ======-->
     <!--====== Start Contact Section ======-->
     <section class="contact-area contact-area-v1 pt-70 pb-80">
-      <div class="container">
+      <div class="container" id="contact-fugen">
         <div class="row align-items-center">
           <div class="col-lg-8">
             <div class="text-wrapper mb-50 wow fadeInLeft">
